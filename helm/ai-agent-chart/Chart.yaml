@@ -1,0 +1,12 @@
+apiVersion: v2
+name: ai-agent-chart
+description: Helm chart for the Lead Scoring AI Agent (FastAPI + scikit-learn)
+
+# Application chart
+type: application
+
+# Chart version – bump on every chart change
+version: 0.1.0
+
+# Application version
+appVersion: "1.0.0"
