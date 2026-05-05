@@ -8,7 +8,7 @@ image:
   repository: amenallahmselmi/ai-agent
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "25369240996"
+  tag: "25371395621"
 
 service:
   type: ClusterIP
