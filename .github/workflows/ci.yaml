@@ -95,4 +95,5 @@ jobs:
           git config --global user.name "AmenAllah-Mselmi"
           git add helm/ai-agent-chart/values.yaml
           git commit -m "ci: update ai-agent image tag to ${{ github.run_id }}"
+          git pull --rebase origin main
           git push
